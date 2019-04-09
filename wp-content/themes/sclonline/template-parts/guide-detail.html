@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Guide Detail - BlogDesk</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Font-awesome -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Slick Slider -->
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/fancy_slider.css" rel="stylesheet">
+    <!-- Typography -->
+    <link href="css/typography.css" rel="stylesheet">
+    <!-- widget.css -->
+    <link href="css/widget.css" rel="stylesheet">
+	<!-- Typography -->
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+    <!-- component-responsive.css -->
+    <link href="css/component.css" rel="stylesheet">
+    <!-- flipclock.css -->
+    <link href="css/flipclock.css" rel="stylesheet">
+    <!-- shortcodes.css -->
+    <link href="css/shortcodes.css" rel="stylesheet">
+    <!-- colors.css -->
+    <link href="css/colors.css" rel="stylesheet">
+    <!-- style.css -->
+    <link href="style.css" rel="stylesheet">
+	<!-- responsive.css -->
+    <link href="css/responsive.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- wrapper-->
+    <div class="wrapper">
+       <!--header-->
+		<header>
+		<!-- SIGN IN OR REGISTER -->
+			<div class="modal fade" id="user-login" tabindex="-1" role="dialog">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<div>
+					  <!-- Nav tabs -->
+					  <ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#Signin" aria-controls="Signin" role="tab" data-toggle="tab">Signin</a></li>
+						<li role="presentation"><a href="#Signup" aria-controls="Signup" role="tab" data-toggle="tab">Signup</a></li>
+					  </ul>
+					  <!-- Tab panes -->
+					  <div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="Signin">
+							<div class="hotel-login-form">
+								<div class="input-container">
+									<i class="fa fa-envelope-o" aria-hidden="true"></i>
+									<input type="email" placeholder="Your Email ID">
+								</div>
+								<div class="input-container">
+									<i class="fa fa-lock" aria-hidden="true"></i>
+									<input type="email" placeholder="Your Email ID">
+								</div>
+								<div class="input-container">
+									<button>Login</button>
+								</div>
+								<div class="input-container login-with">
+									<div class="row">
+										<div class="col-lg-6">
+											<a href="#" class="facebook">Login with facebook</a>
+										</div>
+										<div class="col-lg-6">
+											<a href="#" class="gmail">Login with facebook</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="Signup">
+							<div class="hotel-login-form">
+								<div class="input-container">
+									<i class="fa fa-envelope-o" aria-hidden="true"></i>
+									<input type="email" placeholder="Your Email ID">
+								</div>
+								<div class="input-container">
+									<i class="fa fa-envelope-o" aria-hidden="true"></i>
+									<input type="password" placeholder="Your Password">
+								</div>
+								<div class="input-container">
+									<i class="fa fa-lock" aria-hidden="true"></i>
+									<input type="password" placeholder="Retype Password">
+								</div>
+								<div class="input-container">
+									<button>Login</button>
+								</div>
+								<div class="input-container login-with">
+									<div class="row">
+										<div class="col-lg-6">
+											<a href="#" class="facebook">Login with facebook</a>
+										</div>
+										<div class="col-lg-6">
+											<a href="#" class="gmail">Login with facebook</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<!-- SIGN IN OR REGISTER END-->
+            <div class="kf_toprow">
+                <div class="container">
+                    <div class="kf-header-row">
+                        <h6>Join Us at Consensus in ...</h6>
+                        <div class="clock flip-clock-wrapper"></div>
+                        <a href="#" class="btn_default black-bg-color" data-toggle="modal" data-target="#user-login"><i class="fa fa-user" aria-hidden="true"></i><span>Register Now</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="kf_header_logos">
+                <div class="container">
+                    <div class="kf_logo">
+                        <h1><a href="#"><img src="images/logo.png" alt="kodeforest"></a></h1>
+                    </div>
+                    <div class="kf_navigation_menu">
+                        <nav class="navigation">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Blog</a>
+									<ul class="child">
+										<li><a href="blog.html">Blog</a></li>
+										<li><a href="blog-1.html">Blog Listing</a></li>
+										<li><a href="blog-detail.html">Blog Detail</a></li>
+										<li><a href="blog-detail-1.html">Blog Detail 01</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Guide Index</a>
+									<ul class="child">
+										<li><a href="guide-index.html">Guide Index</a>
+										<li><a href="guide-detail.html">Guide Detail</a></li>
+									</ul>
+								</li>
+								<li><a href="#">jobs</a>
+									<ul class="child">
+										<li><a href="job-listing.html">job listing</a>
+										<li><a href="job-detail.html">job detail</a></li>
+									</ul>
+								</li>
+                                <li><a href="category.html">Category</a></li>
+								<li><a href="shotcode.html">Shotcode</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                            </ul>
+                        </nav>
+						<!--DL Menu Start-->
+						<div id="kode-responsive-navigation" class="dl-menuwrapper">
+							<button class="dl-trigger">Open Menu</button>
+							<ul class="dl-menu">
+								<li class="active"><a class="active" href="index.html">Home</a>
+								<li class="menu-item kode-parent-menu"><a href="#">Blog</a>
+									<ul class="dl-submenu">
+										<li><a href="blog.html">Blog</a></li>
+										<li><a href="blog-1.html">Blog Listing</a></li>
+										<li><a href="blog-detail.html">Blog Detail</a></li>
+										<li><a href="blog-detail-1.html">Blog Detail 01</a></li>
+									</ul>
+								</li>
+								<li class="menu-item kode-parent-menu"><a href="#">Guide Index</a>
+									<ul class="dl-submenu">
+										<li><a href="guide-index.html">Guide Index</a></li>
+										<li><a href="guide-detail.html">Guide Detail</a></li>
+									</ul>
+								</li>
+								<li class="menu-item kode-parent-menu"><a href="#">jobs</a>
+									<ul class="dl-submenu">
+										<li><a href="job-listing.html">job listing</a></li>
+										<li><a href="job-detail.html">job detail</a></li>
+									</ul>
+								</li>
+								<li><a href="category.html">Category</a></li>
+								<li><a href="shotcode.html">Shotcode</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+							</ul>
+						</div>
+						<!--DL Menu END-->
+						<div class="kode_search_overlay">
+							<div class="cp-search-holder">
+								<button type="button" id="trigger-overlay"><i aria-hidden="true" class="fa fa-search"></i></button>
+							</div>
+
+							<div id="overlay" class="overlay overlay-contentscale">
+							 <button class="overlay-close" type="button">Close</button>
+							 <!--Search Bar Inner Start-->
+							 <div class="cp-search-inner">
+							  <form class="kode-search kode_search-form" method="get" id="searchform">
+							   <input type="text" name="s" id="s" autocomplete="off" data-default="" />
+							   <button class="submit" type="submit"><i class="fa fa-search"></i></button>
+							  </form>
+							 </div>
+							 <!--Search Bar Inner End-->
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_bar_header">
+               <div class="container">
+                    <div class="breaking-news">
+						<strong>Breaking News: </strong>
+						<div class="breaking-news-item">
+							<div><div class="news_text"><p>BlogDesk Launches Lorem Ipsum Essay Series With Author Essay Series Essay Series With Author Brian Patrick Eha...</p></div></div>
+							<div><div class="news_text"><p>BlogDesk Launches Lorem Ipsum Essay Series With Author Essay Series With Author Essay Series Brian Patrick Eha...</p></div></div>
+						</div>
+					</div>
+                </div>
+            </div>
+       	</header>
+       <div class="content padding_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 no-padding">
+                        <div class="kf_detail_blog custom-padding">
+                            <h2>what is Lorem Ipsum?</h2>
+                            <div class="kf_banner_add">
+                                <a href="#"><img src="extra-images/15680544142627426040.jpg" alt=""></a>
+                            </div>
+                            <div class="blog_post_nav">
+                                <nav class="navigation responsive">
+                                    <ul>
+                                        <li><a href="#" class="fa fa-question-circle-o" aria-hidden="true"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-globe"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-money"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-archive"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-home"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-handshake-o"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-envelope-open-o"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-address-book-o"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-cogs"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-user-o"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-shopping-basket"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-wrench"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-thumbs-o-up"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-laptop"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-paper-plane-o"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-bar-chart"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-book"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-calendar"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-cubes"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-database"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-gavel"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-university"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-heart-o"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-ambulance"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-yelp"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-vimeo"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-tumblr"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-soundcloud"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-skype"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-share-alt"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-pinterest-p"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-paypal"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-flickr"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-dribbble"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-cc-visa"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-tags"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-life-ring"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-signal"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-wrench"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-thumbs-o-up"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-laptop"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-paper-plane-o"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-bar-chart"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-book"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-calendar"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-cubes"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-database"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-gavel"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-university"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-heart-o"><span>Why Use Lorem Ipsum?</span></a></li>
+                                        <li><a href="#" class="fa fa-ambulance"><span>Why Use Lorem Ipsum?</span></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="blog_detail_caption">
+                                <ul class="social-icons">
+                                    <li class="twitter">
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i><span class="count">136</span>
+                                        </a>
+                                    </li>
+                                    <li class="facebook">
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i><span class="count"></span>
+                                        </a>
+                                    </li>
+                                    <li class="google-plus">
+                                        <a href="#">
+                                            <i class="fa fa-google-plus"></i><span class="count"></span>
+                                        </a>
+                                    </li>
+                                    <li class="linkedin">
+                                        <a href="#" >
+                                            <i class="fa fa-linkedin"></i><span class="count">114</span>
+                                        </a>
+                                    </li>
+                                    <li class="reddit">
+                                        <a href="#" >
+                                            <i class="fa fa-reddit"></i><span class="count">4</span>
+                                        </a>
+                                    </li>
+                                    <li class="whatsapp">
+                                        <a href="#" >
+                                            <i class="fa fa-whatsapp"></i>
+                                        </a>
+                                    </li>
+                                    <li class="email">
+                                        <a href="#" >
+                                            <i class="fa fa-envelope"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="kode_blog_caption_content">
+                                    <p><em>Last updated: 20th February 2014</em>
+                                    </p>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                    <p><strong>Why use Lorem Ipsum?</strong> Here are Lorem Ipsum is simply dummy text’s worth taking the time to get involved in this virtual currency.</p>
+                                    <h5>It’s fast</h5>
+                                    <p>When you pay a cheque from another bank into Lorem Ipsum is simply dummy text often hold that money for several days, because it can’t trust that the funds are really available. Similarly, international wire transfers can take a relatively long time. Lorem Ipsum transactions, however, are generally far faster.</p>
+                                    
+                                        <p>
+                                        Lorem Ipsum is simply dummy text if they are “zero-confirmation” transactions, meaning that the merchant takes on the risk of accepting a Lorem Ipsum is simply dummy text <a href="#">confirmed by the Lorem Ipsum blockchain</a>. Or, they can take around 10 minutes if a merchant requires the transaction to be confirmed. That is far faster than any inter-bank transfer.</p>
+                                    <h5>It’s cheap</h5>
+                                    <p>What’s that you say? Your credit card transactions are instantaneous too? Well, that’s true. But your merchant (and possibly you) pay for that privilege. Some merchants will charge a fee for debit card transactions too, as they have to pay a ‘swipe fee’ for fulfilling them. Lorem Ipsum transaction fees are minimal, or in some cases free.</p>
+                                    <h5>Central governments can’t take it away</h5>
+                                    <p>Remember what happened in <a href="#">Cyprus in March 2013</a>? The Central Bank wanted to take back uninsured deposits larger than $100,000 to help recapitalize itself, causing huge unrest in the local population. It originally wanted to take a percentage of deposits below that figure, eating directly into family savings. That can’t happen with Lorem Ipsum. Because the currency is decentralized, you own it. No central authority has control, and so a bank can’t take it away from you. For those who find their trust in the traditional banking system unravelling, that’s a big benefit.</p>
+                                    <h5>There are no chargebacks</h5>
+                                    <p>Once Lorem Ipsums have been sent, they’re gone. A person who has sent Lorem Ipsums cannot try to retrieve them without the recipient’s consent. This makes it difficult to commit the kind of fraud that we often see with credit cards, in which people make a purchase and then contact the credit card company to make a chargeback, effectively reversing the transaction.</p>
+                                    <h5>People can’t steal your payment information from merchants</h5>
+                                    <p>This is a big one. Most online purchases today are made via credit cards, but in the 1920s and ’30s, when the first precursors to credit cards appeared, the Internet hadn’t yet been conceived. Credit cards were never supposed to be used online and are insecure. Online forms require you to enter all your secret information (the credit card number, expiry date, and CSV number) into a web form. It’s hard to think of a less secure way to do online business. This is why credit card numbers keep being stolen.</p>
+                                    <p>Lorem Ipsum transactions, however, don’t require you to give up any secret information. Instead, they use two keys: a public key, and a private one. Anyone can see the public key (which is actually your Lorem Ipsum address), but your private key is secret. When you send a Lorem Ipsum, you ‘sign’ the transaction by combining your public and private keys together, and applying a mathematical function to them. This creates a certificate that proves the transaction came from you. As long as you don’t do anything silly like publishing your private key for everyone to see, you’re safe.</p>
+                                    <h5>It isn’t inflationary</h5>
+                                    <p>The problem with regular fiat currency is that governments can print as much of it as they like, and they frequently do. If there are not enough US dollars to pay off the national debt, then the Federal Reserve can simply print more. If the economy is sputtering, then the government can take newly created money and inject it into the economy, via a much-publicised process known as quantitative easing. This causes the value of a currency to decrease.</p>
+                                    <p>If you suddenly double the number of dollars in circulation, then that means there are two dollars where before there was only one. Someone who had been selling a chocolate bar for a dollar will have to double the price to make it worth the same as it was before, because a dollar suddenly has only half its value. This is called inflation, and it causes the price of goods and services to increase. Inflation can be difficult to control, and can decrease people’s buying power. Lorem Ipsum was designed to have a maximum number of coins. Only 21 million will ever be created under the original specification. This means that after that, the number of Lorem Ipsums won’t grow, so inflation won’t be a problem. In fact, deflation &ndash; where the price of goods and services falls &ndash; is more likely in the Lorem Ipsum world.</p>
+                                    <h5>It’s as private as you want it to be</h5>
+                                    <p>Sometimes, we don’t want people knowing what we have purchased. Lorem Ipsum is a relatively private currency. On the one hand, it is transparent &ndash; thanks to the blockchain, everyone knows how much a particular Lorem Ipsum address holds in transactions. They know where those transactions came from, and where they’re sent. On the other hand, unlike conventional bank accounts, no one knows who holds a particular Lorem Ipsum address. It’s like having a clear plastic wallet with no visible owner. Everyone can look inside it, but no one knows whose it is. However, it’s worth pointing out that people who use Lorem Ipsum unwisely (such as always using the same Lorem Ipsum address, or combining coins from multiple addresses into a single address) risk making it easier to identify them online.</p>
+                                    <h5>You don’t need to trust anyone else</h5>
+                                    <p>In a conventional banking system, you have to trust people to handle your money properly along the way. You have to trust the bank, for example. You might have to trust a third-party payment processor. You’ll often have to trust the merchant too. These organizations demand important, sensitive pieces of information from you. Because Lorem Ipsum is entirely decentralized, you need trust no one when using it. When you send a transaction, it is digitally signed, and secure. An unknown miner will verify it, and then the transaction is completed. The merchant need not even know who you are, unless you’ve arranged to tell them.</p>
+                                    <h5>You own it</h5>
+                                    <p>There is no other electronic cash system in which your account isn't owned by someone else. Take PayPal, for example: if the company decides for some reason that your account has been misused, it has the power to freeze all of the assets held in the account, without consulting you. It is then up to you to jump through whatever hoops are necessary to get it cleared, so that you can access your funds. With Lorem Ipsum, you own the private key and the corresponding public key that makes up a Lorem Ipsum address. No one can take that away from you (unless you lose it yourself, or host it with a web-based wallet service that loses it for you).</p>
+                                    <h5>You can&nbsp;Lorem Ipsum dummy text</h5>
+                                    <p>In spite of the amazing advances in home office colour printing technology, most national governments take a fairly dim view of you producing your own money. With Lorem Ipsum, however, it is encouraged. You can certainly buy Lorem Ipsums on the open market, but you can also <a href="#">mine your own</a> if you have enough computing power. After covering your initial investment in equipment and electricity, mining Lorem Ipsums is simply a case of leaving the machine switched on, and the software running. And who wouldn't like their computer to earn them money while they sleep?</p>
+                                    <ul class="social-icons">
+                                        <li class="twitter">
+                                            <a href="#">
+                                                <i class="fa fa-twitter"></i><span class="count">136</span>
+                                            </a>
+                                        </li>
+                                        <li class="facebook">
+                                            <a href="#">
+                                                <i class="fa fa-facebook"></i><span class="count"></span>
+                                            </a>
+                                        </li>
+                                        <li class="google-plus">
+                                            <a href="#">
+                                                <i class="fa fa-google-plus"></i><span class="count"></span>
+                                            </a>
+                                        </li>
+                                        <li class="linkedin">
+                                            <a href="#" >
+                                                <i class="fa fa-linkedin"></i><span class="count">114</span>
+                                            </a>
+                                        </li>
+                                        <li class="reddit">
+                                            <a href="#" >
+                                                <i class="fa fa-reddit"></i><span class="count">4</span>
+                                            </a>
+                                        </li>
+                                        <li class="whatsapp">
+                                            <a href="#" >
+                                                <i class="fa fa-whatsapp"></i>
+                                            </a>
+                                        </li>
+                                        <li class="email">
+                                            <a href="#" >
+                                                <i class="fa fa-envelope"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                   
+                                    <div class="kf_recent_code">
+                                        <div class="aladin_bloger_author">
+                                            <div class="aladin_blog_detail_author">
+                                                <figure class="overlay-dark">
+                                                    <img src="extra-images/author-comment-01.jpg" alt="image">
+                                                </figure>
+                                                <div class="aladin_blog_author_cap">
+                                                    <h5><a href="#">Author - Shron Deo </a></h5>
+                                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque totam rem aperiam, eaque ipsa quae ab illo ienim ipsam voluptatem quia accusantium doloremque totam  esequi nesciunt.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="blog_post_nav category_list">
+                                            <nav class="navigation">
+                                                <ul>
+                                                    <li><a href="#"><span class="fa fa-question-circle-o"></span>Lorem Ipsum is printing<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-globe"></span>Fusce purus ante<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-money"></span>dolor sit amet consectetur<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-archive"></span>aliquam vitae metus sit amet<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-home"></span>convallis venenatis leo<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-handshake-o"></span>Ut sem nulla rutrum<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-envelope-open-o"></span>eu justo eget<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-address-book-o"></span>venenatis elementum ipsum<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-cogs"></span>Phasellus ut tortor molestie<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-user-o"></span>finibus tellus nec<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-shopping-basket"></span>ornare odio<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-wrench"></span>Phasellus sagittis risus<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-thumbs-o-up"></span>Contrary to popular belief<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-laptop"></span>Lorem Ipsum is not simply<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-paper-plane-o"></span>random text It has roots<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-bar-chart"></span>in a piece of classical<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-book"></span>Latin literature from<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-calendar"></span>Hampden-Sydney College<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-cubes"></span>Virginia looked up one of<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-database"></span>more obscure Latin words<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-gavel"></span>consectetur from a Lorem Ipsum<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-university"></span>passage, and going through<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-heart-o"></span>discovered the undoubtable source<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-ambulance"></span>The Extremes of Good and Evil<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-yelp"></span>There are many variations<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-vimeo"></span>passages of Lorem Ipsum<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-tumblr"></span>majority have suffered<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-soundcloud"></span>randomised words which<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-skype"></span>embarrassing hidden in the middle<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-share-alt"></span>predefined chunks as necessary<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-pinterest-p"></span>combined with a handful<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-paypal"></span>generate Lorem Ipsum which<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-flickr"></span>dolor sit amet consectetur<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-dribbble"></span>tempor nisi purus id<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-cc-visa"></span>hendrerit eros feugiat at<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-tags"></span>hendrerit eros feugiat at<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-life-ring"></span>Fusce purus ante<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-signal"></span>aliquam vitae metus<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-wrench"></span>sit amet convallis<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-thumbs-o-up"></span>venenatis leo Ut sem<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-laptop"></span>nulla rutrum eu justo<span>It's a decentralized digital currency</span></a></li>
+                                                    <li><a href="#"><span class="fa fa-paper-plane-o"></span>ipsum Phasellus ut tortor<span>It's a decentralized digital currency</span></a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        <div class="kf_banner_add">
+                                            <a href="#"><img src="extra-images/15680544142627426040.jpg" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Blog Detail Aside Bar Wrap Start-->
+                    <div class="col-md-4">
+                    	<div class="aladin_aside_outer_wrap padding-1">
+                        	<!--Aside Search Wrap Start-->
+                            <div class="aladin_aside_search">
+                            	<form>
+                                	<div class="aladin_aside_search_field">
+                                    	<input class="search_place" type="search" placeholder="Search ....">
+                                        <button><i class="fa fa-search"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!--Aside Search Wrap End-->
+                            
+                            <!--Category Wrap Start-->
+                            <div class="aladin_aside_category aside_hdg_1">
+                            	<h5>Categories</h5>
+                                <ul>
+                                    <li><a href="#">Web design</a><span>(12)</span></li>
+                                    <li><a href="#">Wordpress</a><span>(12)</span></li>
+                                    <li><a href="#">Marketing</a><span>(12)</span></li>
+                                    <li><a href="#">eCommerce</a><span>(12)</span></li>
+                                    <li><a href="#">Grahpic Design</a><span>(12)</span></li>
+                                    <li><a href="#">Photograhpy</a><span>(12)</span></li>
+                                </ul>
+                            </div>
+                            <!--Category Wrap End-->
+                            
+                            <!--Recent Post Wrap Start-->
+                            <div class="aladin_aside_recent_post aside_hdg_1">
+                            	<h5>Recent Post</h5>
+                                <ul>
+                                	<li>
+                                    	<figure class="overlay-dark">
+                                        	<img src="extra-images/recent-post-01.jpg" alt="">
+                                        </figure>
+                                        <div class="aladin_aside_agent_des">
+                                        	<ul>
+                                            	<li><a href="#">November 16,2016</a></li>
+                                                <li><i class="zmdi zmdi-comment-outline"></i><a href="#">12</a></li>
+                                            </ul>
+                                        	<h6><a href="#">Beautiful single home </a></h6>
+                                        </div>
+                                    </li>
+                                    <li>
+                                    	<figure class="overlay-dark">
+                                        	<img src="extra-images/recent-post-02.jpg" alt="">
+                                        </figure>
+                                        <div class="aladin_aside_agent_des">
+                                        	<ul>
+                                            	<li><a href="#">November 16,2016</a></li>
+                                                <li><i class="zmdi zmdi-comment-outline"></i><a href="#">12</a></li>
+                                            </ul>
+                                        	<h6><a href="#">Charming single family </a></h6>
+                                        </div>
+                                    </li>
+                                    <li>
+                                    	<figure class="overlay-dark">
+                                        	<img src="extra-images/recent-post-03.jpg" alt="">
+                                        </figure>
+                                        <div class="aladin_aside_agent_des">
+                                        	<ul>
+                                            	<li><a href="#">November 16,2016</a></li>
+                                                <li><i class="zmdi zmdi-comment-outline"></i><a href="#">12</a></li>
+                                            </ul>
+                                        	<h6><a href="#">Hansom Alex </a></h6>
+                                        </div>
+                                    </li>
+                                    <li>
+                                    	<figure class="overlay-dark">
+                                        	<img src="extra-images/recent-post-04.jpg" alt="">
+                                        </figure>
+                                        <div class="aladin_aside_agent_des">
+                                        	<ul>
+                                            	<li><a href="#">November 16,2016</a></li>
+                                                <li><i class="zmdi zmdi-comment-outline"></i><a href="#">12</a></li>
+                                            </ul>
+                                        	<h6><a href="#">Lorem Ipsum is not simply random. </a></h6>
+                                        </div>
+                                    </li>
+                                    <li>
+                                    	<figure class="overlay-dark">
+                                        	<img src="extra-images/recent-post-05.jpg" alt="">
+                                        </figure>
+                                        <div class="aladin_aside_agent_des">
+                                        	<ul>
+                                            	<li><a href="#">November 16,2016</a></li>
+                                                <li><i class="zmdi zmdi-comment-outline"></i><a href="#">12</a></li>
+                                            </ul>
+                                        	<h6><a href="#">Hansom Alex </a></h6>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Recent Post Wrap End-->
+                            
+                            <!--Aside Social icon Wrap Start-->
+                            <div class="aladin_aside_social_icon aside_hdg_1">
+                            	<h5>Social Icon</h5>
+                                <ul class="aladin_social_icon_list">
+                                    <li><a class="aladin_bg1" href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a class="aladin_bg2" href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a class="aladin_bg3" href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    <li><a class="aladin_bg4" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a class="aladin_bg5" href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                </ul>
+                            </div>
+                            <!--Aside Social icon Wrap End-->
+                            
+                            <!--Aside Tag Wrap Start-->
+                            <div class="aladin_aside_tags aside_hdg_1">
+                                <h5>Tags Widgets</h5>
+                                <ul>
+                                    <li>
+                                        <a href="#">Awesome</a>
+                                        <a href="#">Mockup</a>
+                                        <a href="#">Mobile</a>
+                                        <a href="#">Fonts</a>
+                                        <a href="#">Web Design</a>
+                                        <a href="#">Wordpress</a>
+                                        <a href="#">Ios</a>
+                                        <a href="#">Code</a>
+                                        <a href="#">UI / UX</a>
+                                        <a href="#">Themeforest</a>
+                                        <a href="#">Photoshop</a>
+                                        <a href="#">Flat</a>
+                                        <a href="#">Marketing</a>
+                                        <a href="#">Andirod</a>
+                                        <a href="#">Psd</a>
+                                        <a href="#">illustrator</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Aside Tag Wrap End-->
+                            
+                            <!--Aside Testimonial Wrap Start-->
+                            <div class="aladin_aside_testi_wrap aside_hdg_1">
+                            	<h5>Testimonial Widget</h5>
+                                <ul class="aladin_aside_testi_slider">
+                                	<li>
+                                    	<div class="aladin_aside_testimonial">
+                                        	<p>The standard chunk of Lorem Ipsum used since this the first true the 1500s is reproduced below for  vthose interested. </p>
+                                            <span>kodeforest, <a href="#">Envato inc.</a> </span>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                    	<div class="aladin_aside_testimonial">
+                                        	<p>The standard chunk of Lorem Ipsum used since this the first true the 1500s is reproduced below for  vthose interested. </p>
+                                            <span>kodeforest, <a href="#">Envato inc.</a> </span>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                    	<div class="aladin_aside_testimonial">
+                                        	<p>The standard chunk of Lorem Ipsum used since this the first true the 1500s is reproduced below for  vthose interested. </p>
+                                            <span>kodeforest, <a href="#">Envato inc.</a> </span>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                    	<div class="aladin_aside_testimonial">
+                                        	<p>The standard chunk of Lorem Ipsum used since this the first true the 1500s is reproduced below for  vthose interested. </p>
+                                            <span>kodeforest, <a href="#">Envato inc.</a> </span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Aside Testimonial Wrap End-->
+                            
+                            <!--Instagram Widget Wrap Start-->
+                            <div class="aladin_aside_fea_properties aside_hdg_1">
+                            	<h5>Instagram Widget</h5>
+                                <ul>
+                                	<li><a class="overlay-dark" href="#"><img src="extra-images/instagram-01.jpg" alt=""></a></li>
+                                    <li><a class="overlay-dark" href="#"><img src="extra-images/instagram-02.jpg" alt=""></a></li>
+                                    <li><a class="overlay-dark" href="#"><img src="extra-images/instagram-03.jpg" alt=""></a></li>
+                                    <li><a class="overlay-dark" href="#"><img src="extra-images/instagram-04.jpg" alt=""></a></li>
+                                    <li><a class="overlay-dark" href="#"><img src="extra-images/instagram-05.jpg" alt=""></a></li>
+                                    <li><a class="overlay-dark" href="#"><img src="extra-images/instagram-06.jpg" alt=""></a></li>
+                                    <li><a class="overlay-dark" href="#"><img src="extra-images/instagram-07.jpg" alt=""></a></li>
+                                    <li><a class="overlay-dark" href="#"><img src="extra-images/instagram-08.jpg" alt=""></a></li>
+                                    <li><a class="overlay-dark" href="#"><img src="extra-images/instagram-09.jpg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <!--Instagram Widget Wrap End-->
+                            
+                            <!--Accordian Widget Wrap Start-->
+                            <div class="aside_hdg_1">
+                            	<h5>Accordian Widget</h5>
+                                <div class="aladin_accordian_hdg" id="seaction1">
+                                	<h6><i class="fa fa-plus-square"></i>Creative & Design</h6>
+                                </div>
+                                <div class="aladin_accordian_des">
+                                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempoidunt ut labore et dolore.... </p>
+                                </div>
+                                
+                                <div class="aladin_accordian_hdg" id="seaction2">
+                                	<h6><i class="fa fa-plus-square"></i>Developing & Seo</h6>
+                                </div>
+                                <div class="aladin_accordian_des">
+                                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempoidunt ut labore et dolore.... </p>
+                                </div>
+                                
+                                <div class="aladin_accordian_hdg" id="seaction3">
+                                	<h6><i class="fa fa-plus-square"></i>Marketing & Branding</h6>
+                                </div>
+                                <div class="aladin_accordian_des">
+                                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempoidunt ut labore et dolore.... </p>
+                                </div>
+                                
+                                <div class="aladin_accordian_hdg" id="seaction4">
+                                	<h6><i class="fa fa-plus-square"></i>eCommerce</h6>
+                                </div>
+                                <div class="aladin_accordian_des">
+                                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempoidunt ut labore et dolore.... </p>
+                                </div>
+                            </div>
+                            <!--Accordian Widget Wrap End-->
+                            
+                            <!--Aside Slider Widget Wrap Start-->
+                            <div class="aladin_blog_listing_wrap aside_hdg_1">
+                            	<h5>Slider Widget</h5>
+                                <ul class="aladin_slider_widget">
+                                	<li class="overlay-dark">
+                                    	<img src="extra-images/slider-widget-01.jpg" alt="">
+                                    </li>
+                                    
+                                    <li class="overlay-dark">
+                                    	<img src="extra-images/slider-widget-01.jpg" alt="">
+                                    </li>
+                                    
+                                    <li class="overlay-dark">
+                                    	<img src="extra-images/slider-widget-01.jpg" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Aside Slider Widget Wrap End-->
+                            
+                            <!--Archieves Wrap Start-->
+                            <div class="aladin_archieve_wrap aside_hdg_1">
+                            	<h5>Archieve Widget</h5>
+                                <ul>
+                                	<li><a href="#">December 2016</a></li>
+                                    <li><a href="#">November 2 2016</a></li>
+                                    <li><a href="#">october 2016</a></li>
+                                    <li><a href="#">June 2016</a></li>
+                                    <li><a href="#">Augest 2016</a></li>
+                                    <li><a href="#">April 2016</a></li>
+                                </ul>
+                            </div>
+                            <!--Archieves Wrap End-->
+                            
+                        </div>
+                    </div>
+                    <!--Blog Detail Aside Bar Wrap End-->
+                </div>
+            </div>
+       </div>
+       <footer class="footer">
+           <div class="container">
+                <div class="footer_menu">
+                    <div class="pull-left">
+                        <nav class="navigation">
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Press</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Editorial policy</a></li>
+                                <li><a href="#">Comments policy</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <a href="index.html" class="flogo"><img src="images/footer-logo.png" alt=""></a>
+                    <div class="pull-right">
+                        <nav class="navigation">
+                            <ul>
+                                <li><a href="#">Terms & conditions</a></li>
+                                <li><a href="#">Privacy policy</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Advertising</a></li>
+                                <li><a href="#">Newsletter</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+           </div>
+       </footer>
+	</div>
+    <!--church wrapper ends-->
+    <!-- jquery javascript-->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap script-->
+    <script src="js/bootstrap.js"></script>
+    <!-- modernizr script-->
+    <script src="js/modernizr.js"></script>
+    <!--Accordian JavaScript-->
+	<script src="js/modernizr.custom.js"></script>
+	<!--Accordian JavaScript-->
+	<script src="js/jquery.dlmenu.js"></script>
+	<!-- responsive-jquery script-->
+    <script src="js/jquery.bxslider.js"></script>
+    <!-- Slick Slider script-->
+    <script src="js/slick.js"></script>
+    <script src="js/slider_fancy.js"></script>
+	<!--Accordian JavaScript-->
+	<script src="js/search-script.js"></script>
+	<!--Accordian JavaScript-->
+	<script src="js/jquery.accordion.js"></script>
+     <script src="js/flipclock.js"></script>
+    <!-- Custom scripts-->
+    <script src="js/custom.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,1736 @@
+footer{
+	float:left;
+	width:100%;
+	position:relative;
+	/*background-color:#111111;*/
+}
+.aladin_dir_default_bg{
+	background-color: #111111;
+}
+.padding-1 {
+    background-color: #ffffff;
+    padding: 20px;
+}
+/*
+	  ==============================================================
+		   Payment Widgets Wrap Start
+	  ==============================================================
+*/
+.aladin_footer_social_icon{
+	float:left;
+	width:100%;
+	position:relative;
+	padding:25px 0px;	
+}
+.aladin_footer_social_icon ul.aladin_social_icon_list,
+aladin_footer_social_icon ul.aladin_payment_wrap{
+	width:50%;	
+}
+.aladin_footer_social_icon ul.aladin_social_icon_list{
+	text-align:left;
+	margin:10px 0px 0px;	
+}
+.aladin_footer_social_icon ul.aladin_social_icon_list li a{
+	text-align:center;	
+}
+.aladin_footer_social_icon ul.aladin_payment_wrap{
+	float:right;
+	padding-top: 3px;	
+}
+/*Hover CSS*/
+.aladin_footer_social_icon ul.aladin_social_icon_list li:hover a{
+	color:#fff;	
+}
+/*
+	  ==============================================================
+		   Payment Widgets Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   Footer Widgets List Wrap Start
+	  ==============================================================
+*/
+.aladin_widget_outer_wrap{
+	float:left;
+	width:100%;
+	position:relative;
+	border-top:1px solid #1e1e1e;
+	border-bottom:1px solid #1e1e1e;	
+}
+.footer_border_right{
+	border-right:1px solid #1e1e1e;	
+}
+.aladin_widget_list{
+	padding:50px 30px;
+	border-left:1px solid #1e1e1e;
+	min-height:294px;	
+}
+.aladin_widget_hdg{
+	float:left;
+	width:100%;
+	position:relative;
+}
+.aladin_widget_hdg h5{
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:0px 0px 15px;	
+}
+.aladin_widget_list ul{
+	float:left;
+	width:100%;	
+}
+.aladin_widget_list ul li{
+	position:relative;
+	width:100%;
+	display:inline-block;	
+}
+.aladin_widget_list ul li:before{
+	content:"\f105";
+	font-family:fontawesome;
+	position:absolute;
+	top:7px;
+	left:0px;
+	width:20px;
+	height:100%;
+	color:#515151;	
+}
+.aladin_widget_list ul li a{
+	display:block;
+	padding:6px 0px 6px 20px;
+	color:#ccc;
+	text-transform:capitalize;	
+}
+/*Hover Css*/
+.aladin_widget_list ul li:hover::before{
+	left:10px;	
+}
+.aladin_widget_list ul li:hover a{
+	padding-left:25px;	
+}
+/*
+	  ==============================================================
+		   Footer Widgets List Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   Footer Post List Wrap Start
+	  ==============================================================
+*/
+.aladin_footer_post_outer_wrap{
+	float:left;
+	width:100%;
+	padding:50px 0px;
+	position:relative;
+	border-bottom:1px solid #1e1e1e; 	
+}
+/*Post List CSS*/
+.aladin_footer_post_wrap{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.aladin_footer_post_wrap figure{
+	width:100%;	
+}
+.aladin_footer_post_wrap figure img{
+	width:100%;
+	height:auto;	
+}
+/*Post Description CSS*/
+.aladin_footer_post_des{
+	float:left;
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	padding:20px;
+	background-color:rgba(0,0,0,0.8);
+	border-bottom:3px solid;
+	transform:scale(0);
+	-moz-transform:scale(0);
+	-webkit-transform:scale(0);
+		
+}
+.aladin_footer_post_des h6{
+	position:absolute;
+	top:20px;
+	left:0px;
+	color:#fff;
+	padding:5px 12px 5px 12px;
+	display:inline-block;
+	border-top-right-radius:30px;
+	border-bottom-right-radius:30px;	
+	font-weight:600;
+	text-transform:uppercase;
+}
+.aladin_footer_post_des span{
+	color:#fff;
+	text-align:right;
+	display:block;
+	margin:0px 0px 20px;	
+}
+.aladin_footer_post_des h5 > a{
+	display:block;
+	text-transform:uppercase;
+	margin:0px 0px 4px;
+	font-weight:600;	
+}
+.aladin_footer_post_des p{
+	color:#fff;
+	margin:0px;
+	font-size:12px;	
+}
+/*
+	  ==============================================================
+		   Footer Post List Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   Copy Right Wrap Start
+	  ==============================================================
+*/
+.aladin_copyright_outer_wrap{
+	padding:25px 0;	
+}
+.aladin_copyright_outer_wrap,
+.aladin_copy_right{
+	float:left;
+	width:100%;
+	text-align:center;
+	position:relative;	
+}
+.aladin_copy_right p,
+.aladin_copy_right p a{
+	margin:0px;
+	color:#fff;
+	text-transform:capitalize;	
+}
+/*
+	  ==============================================================
+		   Copy Right Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   Aside Filter Listing Wrap Start
+	  ==============================================================
+*/
+.aladin_filter_outer_wrap{
+	float:left;
+	width:100%;
+	position:relative;
+	border-bottom:1px solid;
+	margin-bottom:25px;
+	background-color:#edf2f5;	
+}
+.aladin_filter_outer_wrap h5{
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	border-top:2px solid #11a3ad;
+	border-bottom:2px solid #01828b;
+	padding:15px 10px;
+	margin:0 0 6px;	
+}
+.aladin_property_element{
+	padding:15px 15px 25px;	
+}
+.aladin_property_element,
+.aladin_property_field{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.aladin_property_field label{
+	text-align:left;
+	font-size:15px;
+	font-weight:bold;	
+}
+/*Chosen CSS*/
+.aladin_property_field .chosen-container{
+	margin:0px 0px 20px;
+	width:100% !important;	
+}
+.aladin_property_field .chosen-container-single .chosen-single{
+	background:#fff;
+	border:1px solid rgba(197,197,197,0.37);
+	border-radius:0px;
+	box-shadow:none;
+	height:40px;
+	color:#999;
+	padding:6px 15px;	
+}
+.aladin_property_field .chosen-container .chosen-drop{
+	background:#fff;
+	border:1px solid #e4e4e4;
+	box-shadow:none;
+}
+.aladin_property_field .chosen-container-single .chosen-single div{
+	background-color:#f8f8f8;
+	border-left:1px solid #e1e1e1;	
+}
+.chosen-container-single .chosen-single div b::before{
+	top:5px;
+	color:#999999;
+	font-weight:normal;	
+}
+/*Range Slider CSS*/
+.aladin_aside_range_slider{
+	float:left;
+	width:100%;
+	position:relative;
+	margin:0px 0px 25px;
+	padding:15px 0px;
+	z-index:1;
+}
+.aladin_aside_range_slider::before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:-15px;
+	right:-15px;
+	bottom:0px;
+	background-color:#162325;
+	z-index:-1;	
+}
+.aladin_aside_range_slider label{
+	text-align:left;
+	font-size:15px;
+	font-weight:bold;
+	color:#fff;	
+}
+.aladin_aside_range_slider .amount{
+	color:#fff;
+	display:inline-block;
+	font-size:14px;
+	text-transform:capitalize;
+	float:right;
+	border:0px;
+	height:auto;
+	text-align:right;
+	background:none;
+	font-weight:bold;
+	margin-bottom:10px;	
+}
+.aladin_aside_range_slider .slider-range{
+	width:98%;
+	margin-bottom:15px;
+	float:left;
+	background-color:#335055;
+	border:0px;
+	border-radius:0px;
+	height:7px;
+	cursor:pointer;
+}
+.aladin_aside_range_slider .ui-state-default,
+.aladin_aside_range_slider .ui-widget-content .ui-state-default,
+.aladin_aside_range_slider .ui-widget-header .ui-state-default{
+	border:4px solid #fff;
+	border-radius:100%;	
+}
+.aladin_aside_range_slider span{
+	color:#fff;
+	font-weight:bold;	
+}
+/*Button CSS*/
+.aladin_property_field input[type="submit"],
+.aladin_property_field button{
+	color:#999999;
+	text-transform:uppercase;
+	float:left;
+	padding:8px 0px;
+	min-width:113px;
+	border:0px;
+	font-weight:600;
+	border:1px solid rgba(197,197,197,0.37);
+	background:none;	
+}
+.aladin_property_field input[type="submit"]:first-of-type,
+.aladin_property_field button:first-of-type{
+	margin-right:5px;	
+}
+.aladin_property_field input[type="submit"]:hover,
+.aladin_property_field button:hover{
+	color:#fff;	
+}
+/*
+	  ==============================================================
+		   Aside Filter Listing Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   Aside Recent Listing Wrap Start
+	  ==============================================================
+*/
+.aside_hdg_1{
+	float:left;
+	width:100%;
+	position:relative;
+	margin:0px 0px 23px;	
+}
+.aside_hdg_1 > h5{
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:0px 0px 0px 20px;
+	margin:0px 0px 20px 0px;
+	position:relative;	
+}
+.aside_hdg_1 > h5::before{
+	content:"";
+	position:absolute;
+	top:7px;
+	left:0px;
+	width:4px;
+	height:8px;
+	box-shadow:0 8px 0 0 #333;	
+}
+.aside_hdg_1 ul{
+	float:left;
+	width:100%;	
+}
+.aladin_aside_post_wrap ul li{
+	border-bottom:1px solid #ececec;
+	padding:12px 0px;
+	position:relative;
+	display:inline-block;
+	width:100%;	
+}
+.aladin_aside_post_wrap ul li figure{
+	width:80px;
+	float:right;	
+	overflow:hidden;
+}
+.aladin_aside_post_wrap ul li figure img{
+	width:100%;
+	height:auto;	
+}
+.aladin_aside_post_des{
+	float:none;
+	padding:4px 100px 0px 0px;
+	width:auto;	
+	text-align:right;
+}
+.aladin_aside_post_des h6 > a{
+	display:block;
+	font-size:15px;
+	color:#666666;
+	margin:0px 0px 6px;
+	font-weight:600;	
+}
+.aladin_aside_post_des p{
+	margin:0px 0px 6px;
+}
+/*
+	  ==============================================================
+		   Aside Recent Listing Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   Aside Popular Places Wrap Start
+	  ==============================================================
+*/
+.aladin_popular_places > ul > li{
+	float:left;
+	width:48%;
+	position:relative;
+	margin-left:5px;	
+}
+.aladin_popular_places .aladin_place_visit_wrap{
+	margin-bottom:5px;	
+}
+.aladin_popular_places .aladin_place_hover_des{
+	margin:-15px 0px 0px;	
+}
+/*
+	  ==============================================================
+		   Aside Popular Places Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   Search Bar Wrap Start
+	  ==============================================================
+*/
+.aladin_aside_search{
+	margin:0px 0px 30px;	
+}
+.aladin_aside_search,
+.aladin_aside_search form,
+.aladin_aside_search_field,
+.aladin_aside_outer_wrap{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.aladin_aside_search_field input[type="search"]{
+	width:100%;
+	height:43px;
+	border:1px solid #e9e9e9;
+	padding:8px 55px 8px 15px;	
+}
+.aladin_aside_search_field button{
+	position:absolute;
+	top:0px;
+	right:0px;
+	height:43px;
+	padding:0px 15px;
+	background:none;
+	color:#999999;	
+}
+.aladin_aside_search_field input[type="search"]:focus + button{
+	color:#fff;	
+}
+/*
+	  ==============================================================
+		   Search Bar Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   Category Wrap Start
+	  ==============================================================
+*/
+.aladin_aside_category ul{
+	float:left;
+	width:100%;	
+}
+.aladin_aside_category ul li{
+	display:inline-block;
+	position:relative;
+	width:100%;
+	border-bottom:1px dotted #dfdfdf;	
+}
+.aladin_aside_category ul li:before{
+	content:"";
+	position:absolute;
+	top:20px;
+	left:0px;
+	font-size:14px;
+	color:#999999;
+	width:7px;
+	height:7px;
+	border:1px solid #cdcdcd;
+}
+.aladin_aside_category ul li a{
+	color: #666666;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 12px 0 12px 20px;
+	text-transform:capitalize;
+}
+.aladin_aside_category ul li span{
+	float:right;
+	padding-top:13px;	
+}
+.aladin_aside_agent_des > h6 {
+    margin-bottom: 0;
+}
+/*Hover*/
+.aladin_aside_category ul li:hover a{
+	padding-left:25px;	
+}
+.aladin_aside_category ul li:hover span{
+	padding-right:10px;	
+}
+/*
+	  ==============================================================
+		   Category Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   Recent Post Wrap Start
+	  ==============================================================
+*/
+.aladin_aside_recent_post > ul{
+	float:left;
+	width:100%;	
+}
+.aladin_aside_recent_post > ul > li{
+	display:inline-block;
+	border-bottom:1px solid #ececec;
+	padding:12px 0px;
+	position:relative;
+	width:100%;	
+}
+.aladin_aside_recent_post > ul > li figure{
+	width:80px;
+	float:left;	
+	overflow:hidden;
+}
+.aladin_aside_recent_post > ul > li figure img{
+	width:100%;
+	height:auto;	
+}
+.aladin_aside_fea_properties ul li:hover .overlay-dark:before,
+.aladin_aside_recent_post ul li:hover .overlay-dark:before{
+	z-index:999;
+	opacity:0.7;
+}
+.aladin_aside_agent_des{
+	float:none;
+	padding:0px 0px 0px 90px;
+	width:auto;	
+}
+.aladin_aside_agent_des > ul{
+	float:left;
+	width:100%;
+	margin:0px 0px 7px;	
+}
+.aladin_aside_agent_des > ul > li{
+	display:inline-block;
+	position:relative;
+	color:#666;
+	font-size:12px;
+	padding:0px 5px;	
+}
+.aladin_aside_agent_des > ul > li:first-child{
+	padding-left:0px;	
+}
+.aladin_aside_agent_des > ul > li > i{
+	margin-right:5px;	
+}
+.aladin_aside_agent_des > ul > li > a{
+	display:inline-block;
+	color:#666;	
+}
+.aladin_aside_agent_des h6 > a{
+	display:block;
+	color:#666666;
+	 font-size: 14px;
+	margin:0px 0px 6px;
+	font-weight:600;
+	text-transform:capitalize;
+}
+.aladin_aside_agent_des p{
+	margin:0px 0px 6px;
+	color:#999999;	
+}
+/*Hover CSS*/
+.aladin_aside_recent_post ul li:hover figure img{
+	transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);	
+}
+/*
+	  ==============================================================
+		   Recent Post Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   Aside Social Icon Wrap Start
+	  ==============================================================
+*/
+.aladin_aside_social_icon{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.aladin_aside_social_icon ul.aladin_social_icon_list li a{
+	color:#fff;
+	border:none;
+	width:36px;
+	height:36px;
+	line-height:36px;	
+}
+.aladin_bg1{
+	background-color:#4862a3;	
+}
+.aladin_bg2{
+	background-color:#00acee;	
+}
+.aladin_bg3{
+	background-color:#ee6d9e;	
+}
+.aladin_bg4{
+	background-color:#0175b2;	
+}
+.aladin_bg5{
+	background-color:#cb2028;	
+}
+.aladin_bg6{
+	background-color:#02b5ff;	
+}
+.aladin_bg7{
+	background-color:#ee3131;	
+}
+.aladin_bg8{
+	background-color:#ffb502;	
+}
+.aladin_bg9{
+	background-color:#34a901;	
+}
+.aladin_bg10{
+	background-color:#e701c4;	
+}
+.aladin_bg11{
+	background-color:#01e7c9;	
+}
+.aladin_bg12{
+	background-color:#5b706d;	
+}
+.aladin_bg13{
+	background-color:#cc6d18;	
+}
+/*
+	  ==============================================================
+		   Aside Social Icon Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   Aside Tags Wrap Start
+	  ==============================================================
+*/
+.aladin_aside_tags ul{
+	float:left;
+	width:100%;	
+}
+.aladin_aside_tags ul li{
+	display:inline-block;
+	position:relative;	
+}
+.aladin_aside_tags ul li a{
+	display:inline-block;
+	padding:8px 10px;
+	color:#666666;
+	border:1px solid #e9e9e9;
+	margin:0px 2px 5px 0px;
+	text-transform:capitalize;	
+	font-size:14px;
+}
+.aladin_aside_tags ul li a:hover{
+	color:#fff;	
+}
+/*
+	  ==============================================================
+		   Aside Tags Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   Aside Testimonial Wrap Start
+	  ==============================================================
+*/
+.aladin_aside_testi_wrap ul{
+	float:left;
+	width:100%;	
+}
+.aladin_aside_testi_wrap ul li{
+	display:inline-block;
+	position:relative;
+	width:100%;	
+}
+.aladin_aside_testimonial{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.aladin_aside_testimonial p{
+	color:#666666;
+	margin:0px 0px 15px;
+	font-style:italic;	
+}
+.aladin_aside_testimonial span{
+	display:block;
+	color:#666666;	
+}
+.aladin_aside_testimonial span a{
+	display:inline-block;	
+}
+/*Slider CSS*/
+.aladin_aside_testi_wrap .bx-wrapper .bx-controls-direction a{
+	display:none;	
+}
+.aladin_aside_testi_wrap .bx-wrapper .bx-pager{
+	font-size: 0;
+    position: relative;
+    text-align: right;
+    top: -34px;	
+}
+.aladin_aside_testi_wrap .bx-wrapper .bx-pager.bx-default-pager a{
+	font-size:0px;	
+}
+.aladin_aside_testi_wrap .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	bottom:0px;	
+}
+/*
+	  ==============================================================
+		   Aside Testimonial Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   Instagram Widget Wrap Start
+	  ==============================================================
+*/
+.aladin_aside_fea_properties ul{
+	float:left;
+	width:100%;	
+}
+.aladin_aside_fea_properties ul li{
+	width:31%;
+	margin:0px 2px 5px 0px;
+	overflow:hidden;
+	display:inline-block;	
+}
+.aladin_aside_fea_properties ul li a{
+	display:block;	
+}
+.aladin_aside_fea_properties ul li a img{
+	width:100%;
+	height:auto;	
+}
+.aladin_aside_fea_properties ul li:hover a img{
+	transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);	
+}
+/*
+	  ==============================================================
+		   Instagram Widget Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   Accordian Widget Wrap Start
+	  ==============================================================
+*/
+.aladin_accordian_hdg{
+	float:left;
+	width:100%;
+	position:relative;
+	padding:12px 0px;
+	border-bottom:1px solid #e9e9e9;	
+}
+.aladin_accordian_hdg h6{
+	color: #666666;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0;	
+}
+.aladin_accordian_hdg h6 i{
+	margin-right:10px;	
+}
+.aladin_accordian_des{
+	float:left;
+	width:100%;
+	position:relative;
+	border-bottom:1px solid #e9e9e9;	
+}
+.aladin_accordian_des p{
+	margin:0px;
+	padding:10px 0px;	
+}
+/*
+	  ==============================================================
+		   Accordian Widget Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   Slider Widget Wrap Start
+	  ==============================================================
+*/
+ul.aladin_slider_widget{
+	float:left;
+	width:100%;	
+}
+ul.aladin_slider_widget li{
+	float:left;
+	position:relative;	
+}
+ul.aladin_slider_widget li img{
+	width:100%;
+	height:auto;	
+}
+/*Slider CSS*/
+.aladin_blog_listing_wrap .bx-wrapper .bx-pager{
+	display:none;	
+}
+.aladin_blog_listing_wrap .bx-wrapper .bx-controls-direction a{
+	width:40px;
+	height:40px;
+	color:#fff;
+	background-color:#333333;	
+}
+.aladin_blog_listing_wrap .bx-wrapper .bx-prev{
+	left:0px;	
+}
+.aladin_blog_listing_wrap .bx-wrapper .bx-next{
+	right:0px;	
+}
+.aladin_blog_listing_wrap .bx-wrapper .bx-controls-direction a:before{
+	content:"\f104";
+	font-family:fontawesome;
+	position:absolute;
+	top:8px;
+	left:0px;
+	width:100%;
+	height:100%;
+	font-size:16px;
+	text-indent:0px;
+	text-align:center;	
+}
+.aladin_blog_listing_wrap .bx-wrapper .bx-controls-direction a.bx-next:before{
+	content:"\f105";	
+}
+/*
+	  ==============================================================
+		   Slider Widget Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   Archieve Widget Wrap Start
+	  ==============================================================
+*/
+.aladin_archieve_wrap.aside_hdg_1{
+	margin:0px;	
+}
+.aladin_archieve_wrap ul{
+	float:left;
+	width:100%;	
+}
+.aladin_archieve_wrap ul li{
+	position:relative;
+	display:inline-block;
+	width:100%;	
+}
+.aladin_archieve_wrap ul li::before{
+	content:"\f0da";
+	font-family:fontawesome;
+	position:absolute;
+	top:10px;
+	left:0px;	
+}
+.aladin_archieve_wrap ul li a{
+	display:block;
+	padding:12px 0px 12px 15px;
+	color:#666666;
+	text-transform:capitalize;
+	border-bottom:1px solid #e9e9e9;
+	font-size:14px;
+}
+.aladin_archieve_wrap ul li:hover a{
+	padding-left:25px;	
+}
+/*
+	  ==============================================================
+		   Archieve Widget Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   Author Detail Widget Wrap Start
+	  ==============================================================
+*/
+.aladin_author_detail_wrap{
+	background-color:#edf2f5;
+	border-bottom:2px solid;
+	margin:0px 0px 25px;	
+}
+.aladin_author_detail_wrap,
+.aladin_author_wrap{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.aladin_author_wrap{
+	padding:15px;
+	border-bottom:3px solid #0699a3;	
+}
+.aladin_author_pic{
+	float:left;
+	width:82px;	
+}
+.aladin_author_pic figure{
+	border:3px solid #fff;
+	float:left;
+	width:100%;	
+}
+.aladin_author_pic figure img{
+	width:100%;
+	height:auto;	
+}
+.aladin_author_pic_des{
+	float:none;
+	padding:20px 0 0 95px;
+	width:auto;	
+}
+.aladin_author_pic_des span{
+	display:block;
+	color:#fff;
+	margin:0px 0px 5px;	
+}
+.aladin_author_pic_des h6 > a{
+	color:#fff;
+	display:block;
+	margin:0px 0px 5px;	
+}
+.aladin_author_pic_des h6 > a:hover{
+	color: #000;
+}
+.aladin_author_pic_des ul.aladin_rating_star li a{
+	color:#fff;	
+}
+/*Des CSS*/
+.aladin_author_des{
+	float:left;
+	width:100%;
+	position:relative;
+	padding:0px 15px;
+	text-align:center;	
+}
+.aladin_author_des > ul{
+	float:left;
+	width:100%;
+	margin:10px 0px 20px;	
+}
+.aladin_author_des > ul > li{
+	width:100%;
+	position:relative;
+	float:left;
+	border-bottom:1px solid #e0e0e0;
+	padding:12px 0px;	
+}
+.aladin_author_des h6{
+	width:50%;
+	float:left;
+	font-weight:500;
+	text-transform:capitalize;
+	text-align:left;	
+}
+.aladin_author_des span{
+	width:50%;
+	text-align:right;
+	float:left;
+	color:#636464;
+	text-transform:capitalize;	
+}
+.aladin_author_des ul ul.aladin_rating_star{
+	width:50%;
+	text-align:right;	
+}
+.aladin_author_des ul ul.aladin_rating_star li a{
+	color:#f1c40f;	
+}
+.aladin_author_des > a{
+	border:0px;
+	color:#fff;	
+}
+/* Hover CSS */
+.aladin_author_des > a:hover{
+	background-color:#000;
+}
+/*
+	  ==============================================================
+		   Author Detail Widget Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   Inquiry Form Widget Wrap Start
+	  ==============================================================
+*/
+.aladin_inquire_wrap{
+	width:100%;
+	float:left;
+	position:relative;
+	border-bottom:2px solid;
+	background-color:#edf2f5;
+	margin:0px 0px 25px;	
+}
+.aladin_inquire_wrap h5{
+	padding:15px 20px;
+	border-bottom:2px solid #13b1bc;
+	color:#fff;
+	font-weight:bold;	
+}
+.aladin_inquire_wrap form{
+	width:100%;
+	float:left;
+	position:relative;
+	padding:20px 15px;	
+}
+.aladin_inquiry_field{
+	float:left;
+	width:100%;
+	position:relative;
+	text-align:center;	
+}
+.aladin_inquiry_field input[type="text"],
+.aladin_inquiry_field input[type="email"],
+.aladin_inquiry_field textarea{
+	width:100%;
+	display:inline-block;
+	border:1px solid #c5c5c5;
+	height:40px;
+	background-color:#fff;
+	margin:0px 0px 25px;	
+}
+.aladin_inquiry_field textarea{
+	min-height:150px;
+	resize:none;	
+}
+.aladin_inquiry_field input[type="submit"],
+.aladin_inquiry_field button{
+	background:none;
+		
+}
+/*
+	  ==============================================================
+		   Inquiry Form Widget Wrap End
+	  ==============================================================
+*/
+
+/*
+	  ============================================================================================================================
+		   			Job Portal Footer Widget Wrap Start
+	  ============================================================================================================================
+*/
+.aladin_job_footer_bg{
+	float:left;
+	width:100%;
+	position:relative;
+	background-color:#181d1f;
+	padding:50px 0px 40px;
+}
+.aladin_job_foo_hdg{
+	float:left;
+	width:100%;
+	position:relative;
+	margin-top: -4px;	
+}
+.aladin_job_foo_hdg h5{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:0px 0px 15px 0px;	
+}
+.aladin_job_foo_hdg ul{
+	float:left;
+	width:100%;	
+}
+.aladin_job_foo_hdg ul li{
+	display:inline-block;
+	width:100%;
+	position:relative;	
+}
+.aladin_job_foo_hdg ul li:before{
+	content:"\f105";
+	font-family:fontawesome;
+	position:absolute;
+	top:5px;
+	font-size:15px;
+	left:0px;
+	width:20px;
+	color:#888d91;	
+}
+.aladin_job_foo_hdg ul li a{
+	display:block;
+	color:#888d91;
+	padding:5px 0px 5px 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.aladin_job_foo_hdg ul li:hover a{
+	padding-left:20px;	
+}
+/*CopyRight CSS*/
+.aladin_job_copyright_wrap{
+	float:left;
+	width:100%;
+	position:relative;
+	padding:20px 0px 10px;
+	background-color: #0b0e0f;	
+}
+.aladin_job_copyright_des{
+	float:left;
+	width:100%;
+	position:relative;
+	text-align:center;	
+}
+.aladin_job_copyright_des p{
+	color:#888d91;	
+}
+.aladin_job_copyright_des p:first-of-type{
+	margin:0px 0px 4px;	
+}
+/*
+	  ==============================================================
+		   Job Detail Aside Bar Widget Wrap Start
+	  ==============================================================
+*/
+.aladin_aside_outer_wrap,
+.aladin_job_aside_map,
+.aladin_job_aside_hdg,
+.aladin_aside_map_des{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.aladin_job_aside_map{
+	border-bottom: 1px solid #dddddd;
+    color: #dedee0;
+    padding-bottom: 20px;
+}
+.aladin_job_aside_map.aladin_job_aside_hdg h6{
+	margin: 0px;
+	margin-bottom: 15px;
+}
+.aladin_job_aside_hdg > h6{
+	text-align: center;
+	padding: 15px;
+	margin: 15px;
+	background-color: #ededed;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.aladin_job_aside_map .map-canvas{
+	width: 100%;
+	height: 160px;
+	margin: 0px 0px 15px;
+}
+ul.aladin_job_aside_map_element{
+	float: left;
+	width: 100%;
+}
+ul.aladin_job_aside_map_element li{
+	position: relative;
+	display: flex;
+	width: 100%;
+	color: #888d91;
+}
+ul.aladin_job_aside_map_element li i{
+	float: left;
+	margin: 6px 15px 0px 0px;
+}
+ul.aladin_job_aside_map_element li p{
+	color: #888d91;
+}
+ul.aladin_job_aside_map_element li a{
+	color: #888d91;
+	display: block;
+}
+.aladin_aside_map_des{
+	border-bottom: 1px solid #dddddd;
+    margin: 0 0 20px;
+    padding: 15px;
+    text-align: center;
+}
+/*Similar Jobs Wrap CSS*/
+.aladin_aside_similar_job ul{
+	float: left;
+	width: 100%;
+}
+.aladin_aside_similar_job ul li{
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	border-top: 1px solid #d9d9d9;
+	padding: 15px;
+}
+.aladin_aside_similar_job ul li:first-child{
+	border-top: 0px;
+	padding-top: 0px;
+}
+.aladin_aside_similar_job_img{
+	width: 60px;
+	height: 60px;
+	float: left;
+	border: 1px solid #efefeb;
+	text-align: center;
+}
+.aladin_aside_similar_job_img img{
+	width: auto;
+	height: auto;
+}
+.aladin_aside_similar_job_des{
+	padding: 0px 0px 0px 75px;
+	float: none;
+	width: auto;
+}
+.aladin_aside_similar_job_des  > h6 > a{
+	display: block;
+	color: #1a1f20;
+	margin: 0px 0px 7px;
+	font-weight: 600;
+}
+.aladin_aside_similar_job_des p{
+	color: #888d91;
+	margin: 0px;
+}
+/*
+	  ==============================================================
+		   Job Listing Aside Bar Widget Wrap Start
+	  ==============================================================
+*/
+.aladin_job_aside_widget_set,
+.aladin_job_aside_search,
+.aladin_job_aside_hdg2,
+.aladin_job_aside_search_field{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.aladin_job_aside_widget_set{
+	margin: 0px 0px 20px;
+}
+.aladin_job_aside_hdg2 {
+    margin-bottom: 10px;
+}
+.aladin_aside_vacancy_type.aladin_job_aside_hdg2{
+	margin-bottom:20px;
+}
+.aladin_job_aside_hdg2 h6{
+	margin: 0px 0px 15px;
+	font-weight: 600;
+}
+.aladin_job_aside_search_field input[type="text"]{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #dedee0;
+	margin: 0px 0px 15px;
+	padding: 8px 50px 8px 15px;
+}
+.aladin_job_aside_search_field button,
+.aladin_job_aside_search_field input[type="submit"]{
+	background:none;
+	color: #94989c;
+	position: absolute;
+	top:0px;
+	right: 0px;
+	border: 0px;
+	height: 40px;
+	padding: 0px 10px;
+}
+.aladin_aside_job_posted ul{
+	float: left;
+	width: 100%;
+}
+.aladin_aside_job_posted ul li{
+	position: relative;
+	width: 100%;
+	position: relative;
+}
+.aladin_aside_job_posted ul li label{
+	cursor: pointer;
+}
+.aladin_aside_job_posted ul li input[type=checkbox] { 
+	display:none; 
+}
+.aladin_aside_job_posted ul li input[type=checkbox] + label:before {
+	display: inline-block;
+	margin:0px 12px 0px 0px;
+}
+.aladin_aside_job_posted ul li input[type=checkbox] + label:before { 
+	content: ""; 
+	font-family:fontawesome;
+	width:16px;
+	height:16px;
+	vertical-align: middle;
+	background: url(../images/uncheck-checkbox.png);
+	background-repeat: no-repeat;
+} 
+.aladin_aside_job_posted ul li input[type=checkbox]:checked + label:before { 
+	content: ""; 
+	font-family:fontawesome; 
+	width:16px;
+	height:16px;
+	background: url(../images/chk-checkbox.png);
+	background-repeat: no-repeat;
+}
+/*Vacancy Type CSS*/
+.aladin_aside_vacancy_type ul{
+		float: left;
+		width: 100%;
+}
+.aladin_aside_vacancy_type ul li{
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	padding: 10px 0px 10px 20px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.aladin_aside_vacancy_type ul li:before{
+	content: "";
+	position: absolute;
+	top:15px;
+	left: 0px;
+	width:10px;
+	height: 10px;
+	border-radius: 100%;
+	background-color: #b9b9b9;
+}
+.aladin_aside_vacancy_type ul li a{
+	display: inline-block;
+	width: 100%;
+	color: #94989c;
+}
+.aladin_aside_vacancy_type ul li a span{
+	float: right;
+	display: inline-block;
+}
+/*Hover CSS*/
+.aladin_aside_vacancy_type ul li:hover a{
+	padding-left: 10px;
+}
+.aladin_job_aside_hdg2.no_border{
+	border-bottom: 0px;
+}
+/*Job Accordian Wrap CSS*/
+.aladin_job_accord_outer_wrap,
+.aladin_aside_job_accord_hdg,
+.aladin_job_accord_des_wrap{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.aladin_aside_job_accord_hdg{
+	background-color: #f5f5f5;
+	padding: 12px;
+	border: 1px solid rgba(222,224,224,0.49);
+	cursor: pointer;
+	margin: 0px 0px 12px;
+}
+.aladin_aside_job_accord_hdg + .aladin_job_aside_hdg2{
+	border: 1px solid rgba(222,224,224,0.49);
+	border-top: 0px;
+}
+.aladin_aside_job_accord_hdg h6{
+	display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding: 0 90px 0 0;
+    text-transform: uppercase;
+}
+.aladin_aside_job_accord_hdg span{
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	float: right;
+	background-color: #ffffff;
+	border: 1px solid #dedee0;
+	line-height: 15px;
+	position: absolute;
+	right: 10px;
+	top: 16px;
+}
+.aladin_aside_job_accord_hdg span i{
+	margin-top:2px;
+}
+.aladin_aside_similar_job_des > h6 {
+    margin-bottom: 0;
+}
+/*Accord Open CSS*/
+.aladin_aside_job_accord_hdg.accordion-open .fa-minus::before{
+	content: "\f067";
+	font-family: fontawesome;
+}
+/*
+	  ============================================================================================================================
+		   			Auto Motive Footer Widget Wrap Start
+	  ============================================================================================================================
+*/
+/*
+	  ==============================================================
+		   Auto News Letter Widget Wrap Start
+	  ==============================================================
+*/
+.aladin_auto_news_letter_wrap,
+.aladin_auto_newletter_bg,
+.aladin_auto_follow_us_wrap,
+.aladin_auto_newletter_form{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.aladin_auto_newletter_bg{
+	background-color: #1a1a1a;
+	padding: 44px 30px;
+	border-bottom: 2px solid;
+	margin: 0px 0px -70px;
+	z-index: 10;
+}
+.aladin_auto_follow_us_wrap{
+	padding-right: 30px;
+}
+.aladin_auto_follow_us_wrap h6,
+.aladin_auto_newletter_form h6{
+	text-transform: uppercase;
+	color: #fff;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 11px 0 0;
+	font-size: 20px;
+}
+ul.aladin_auto_social_icon{
+	float: right;
+	width: auto;
+	padding-top: 3px;
+}
+ul.aladin_auto_social_icon li{
+	position: relative;
+	display: inline-block;
+	margin: 0px 0px 0px 4px;
+}
+ul.aladin_auto_social_icon li a{
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	line-height: 31px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	background-color: #333;
+	border: 4px solid #272727;
+}
+/*Hover CSS*/
+ul.aladin_auto_social_icon li:hover a i{
+	transform: rotateX(360deg);
+	-moz-transform: rotateX(360deg);
+	-webkit-transform: rotateX(360deg);
+}
+/*Form CSS*/
+.aladin_auto_newletter_form form{
+	width: 343px;
+	height: 45px;
+	border-radius: 40px;
+	background-color: #333333;
+	position: relative;
+	float: right;
+}
+.aladin_auto_newletter_form form input[type="search"]{
+	width: 100%;
+	border-radius: 40px;
+	background-color: #333333;
+	border: 0px;
+	padding: 10px 120px 10px 20px;
+	color: #fff;
+}
+.aladin_auto_newletter_form form input[type="submit"],
+.aladin_auto_newletter_form form button{
+	color: #fff;
+	border: 0px;
+	padding: 6px 15px;
+	border-radius: 40px; 
+	position: absolute;
+	top:6px;
+	right: 6px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+/*Hover CSS*/
+.aladin_auto_newletter_form form input[type="submit"]:hover,
+.aladin_auto_newletter_form form button:hover{
+	background-color: #1e1e1e;
+}
+/*
+	  ==============================================================
+		   Auto Column Widget Wrap Start
+	  ==============================================================
+*/
+.aladin_auto_footer_col_outer_wrap{
+	background-image: url(../images/auto-motive/auto-footer-bg.html);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 130px 0px 50px;
+}
+.aladin_auto_footer_col_outer_wrap:before{
+	content: "";
+	position: absolute;
+	top:0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(26,26,26,0.97);
+}
+.aladin_auto_footer_col_outer_wrap,
+.aladin_auto_foo_hdg{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.aladin_auto_foo_hdg h6{
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0px 0px 15px;
+}
+.aladin_auto_foo_hdg ul{
+	float: left;
+	width: 100%;
+}
+.aladin_auto_foo_hdg ul li{
+	position: relative;
+	display: flex;
+}
+/*Col 1*/
+.aladin_auto_foo_contact p{
+	color: #fff;
+}
+.aladin_auto_foo_contact ul li{
+	width: 100%;
+	padding: 8px 0px;
+	font-weight: 600;
+}
+.aladin_auto_foo_contact ul li i{
+	margin: 2px 15px 0px 0px;
+	color: #fff;
+	font-size: 16px;
+}
+.aladin_auto_foo_contact ul li span{
+	display: inline-block;
+	color: #fff;
+}
+.aladin_auto_foo_hdg ul li a{
+	display: block;
+	color: #fff;
+}
+/*Col 2*/
+.aladin_auto_foo_vehicle_list ul li{
+	width: 100%;
+	display: inline-block;
+	border-bottom: 1px dashed #fff;
+	padding: 12px 0px 12px 15px;
+}
+.aladin_auto_foo_vehicle_list ul li:before{
+	content: "\f105";
+	font-family: fontawesome;
+	position: absolute;
+	top:11px;
+	left: 0px;
+	width: 20px;
+	height: 2px;
+	color: #fff;
+}
+.aladin_auto_foo_vehicle_list ul li a{
+	display: block;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.aladin_auto_foo_vehicle_list ul li a span{
+	float: right;color: #fff;
+}
+/*Hover CSS*/
+.aladin_auto_foo_vehicle_list ul li:hover{
+	padding-left: 23px;
+}
+/*Col 3*/
+.aladin_auto_foo_tweets ul li{
+	width: 100%;
+	padding: 8px 0px;
+}
+.aladin_auto_foo_tweets ul li i{
+	margin: 5px 15px 0px 0px;
+	color: #fff;
+	font-size: 18px;
+}
+.aladin_auto_foo_tweets ul li p{
+	display: inline-block;
+	color: #fff;
+	font-weight: 600;
+	margin: 0px;
+	font-size: 13px;
+}
+/*col 4*/
+.aladin_auto_foo_instagram ul li{
+	display: inline-block;
+	width: 30%;
+	margin: 10px 6px 0px 0px;
+	overflow: hidden;
+}
+.aladin_auto_foo_instagram ul li a{
+	display: block;
+}
+.aladin_auto_foo_instagram ul li a img{
+	width: 100%;
+	height: auto;
+}
+/*Hover CSS*/
+/*Copyright Wrap CSS*/
+.aladin_auto_copyright_bg{
+	padding: 8px 0 0px;
+}
+.aladin_auto_copyright_bg,
+.aladin_auto_copyright_outer_wrap{
+	float: left;
+	width: 100%;
+	position: relative;
+	background-color: #1e1e1e;
+}
+.aladin_auto_copyright_outer_wrap{
+	padding: 22px 0 20px;
+	margin-top: -20px;
+}
+.aladin_auto_copyright_outer_wrap{
+	border-left: 2px solid;
+	border-right: 2px solid;
+}
+.aladin_auto_copyright_text{
+	float: left;
+	width: auto;
+	padding-left: 20px;
+}
+.aladin_auto_copyright_text p{
+	color: #666666;
+	margin: 0px;
+}
+.aladin_auto_copyright_text p > a{
+	display: inline-block;
+	color: #666666;
+}
+/*Hover CSS*/
+.aladin_auto_foo_nav{
+	float: right;
+	width: auto;
+	padding-right: 20px;
+}
+.aladin_auto_foo_nav ul{
+	float: left;
+	width: 100%;
+}
+.aladin_auto_foo_nav ul li{
+	position: relative;
+	display: inline-block;
+}
+.aladin_auto_foo_nav ul li a{
+	display: block;
+	color: #666;
+	padding: 0px 8px;
+	text-transform: capitalize;
+	font-weight: 600;
+}

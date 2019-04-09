@@ -1,0 +1,718 @@
+/*============	Media Between Start ============ */
+@media (max-width: 1366px){
+	
+}
+
+/*============	Media 940Px Start ============ */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.wrapper .container {
+		width: auto;
+	}
+	.kf-header-row{
+		padding:10px 20px;
+	}
+	.breaking-news p{
+		font-size:14px;
+	}
+	.breaking-news .slick-prev,
+	.breaking-news .slick-next{
+		display:none !important;
+	}
+	.footer_menu  .navigation ul,
+	.footer_menu .navigation {
+		float:left;
+		text-align: center;
+		width: 100%;
+		display:block;
+		margin:auto;
+	}
+	.footer_menu .pull-right,
+	.footer_menu .pull-left{
+		width: 100%;
+	}
+	.footer_menu .navigation ul li{
+		float:none;
+		display:inline-block;
+	}
+	.kf_logo{
+		width:20%;
+	}
+	.blog_post_nav{
+		width:60px;
+	}
+	.aladin_aside_agent_des > ul > li > a{
+		font-size:15px;
+	}
+	.blog_post_nav.category_list.percent_age nav ul li{
+		width:48%;
+	}
+	.aladin_job_detail_hdg h4{
+		font-size:17px;
+	}
+	.aladin_aside_similar_job_des p,
+	.aladin_job_social_icon_wrap h6{
+		display:none;
+	}
+	.aladin_job_detail_link > a {
+		margin: 0 5px 0 0;
+	}
+	.aladin_aside_map_des > p {
+		text-align: left;
+	}
+	.aladin_aside_job_accord_hdg h6{
+		font-size:14px;
+	}
+	.aladin_aside_social_icon .aladin_social_icon_list li,
+	.aladin_aside_social_icon .aladin_social_icon_list{
+		float:none;
+	}
+	.aladin_price_plan_wrap .aladin_lg {
+		padding: 9px 15px 7px;
+	}
+	ul.aladin_social_icon_list li a{
+		margin:0 8px 0 0;
+	}
+	.aladin_aside_social_icon.aside_hdg_1 ul.aladin_social_icon_list{
+		float:left;
+	}
+	.bottom_bar_header{
+		overflow:hidden;
+	}
+	.padding-1{
+		padding:20px;
+	}
+	.kode_sub_banner h2{
+		font-size:20px;
+	}
+	.blog_post_nav.category_list.percent_age nav ul li a > span:first-child{
+		height:60px;
+		width:40px;
+		font-size:35px;
+	}
+	.blog_post_nav.category_list.percent_age .navigation ul li{
+		padding:0 10px 0 0;
+	}
+	.blog_post_nav.category_list.percent_age .navigation ul li a{
+		font-size:15px;
+	}
+}
+
+/*============	Media 979Px Start ============ */
+@media (max-width: 991px){
+	.wrapper .container {
+		width: auto;
+	}
+	.kf-header-row h6{
+		display:none;
+	}
+	.kf-header-row{
+		padding:10px 0;
+	}
+	.kf_logo {
+		padding-top: 0;
+		width: auto;
+	}
+	.dl-menuwrapper{
+		display:block;
+	}
+	.navigation{
+		display:none;
+	}
+	.cp-search-holder{
+		width:85px;
+	}
+	.dl-menuwrapper .dl-menu {
+		position: absolute;
+		right: 100%;
+		width: 230px;
+		background-color:#e72f13;
+	}
+	.dl-menuwrapper li a{
+		text-transform:capitalize;
+	}
+	.dl-menuwrapper{
+		padding:6px 0 4px;
+	}
+	.dl-menuwrapper button:hover, 
+	.dl-menuwrapper button.dl-active,
+	.dl-menuwrapper button{
+		background-color:#e72f13;
+	}
+	.breaking-news p{
+		overflow: hidden;
+		width:75%;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.kf_service_fig{
+		margin-bottom:20px;
+	}
+	.padding_section {
+		padding: 20px 0;
+	}
+	.footer_menu  .navigation ul,
+	.footer_menu .navigation {
+		float:left;
+		text-align: center;
+		width: 100%;
+		display:block;
+		margin:auto;
+	}
+	.footer_menu .pull-right,
+	.footer_menu .pull-left{
+		width: 100%;
+	}
+	.footer_menu .navigation ul li{
+		float:none;
+		display:inline-block;
+	}
+	.aladin_blog_2_des h3 a{
+		font-size:14px;
+	}
+	.aladin_pagination_wrap{
+		margin:0 0 15px;
+	}
+	.aladin_blog_detail_author {
+		margin-bottom: 30px;
+	}
+	.aladin_content_info p{
+		font-size:14px;
+	}
+	.aladin_content_info h5{
+		margin-bottom:10px;
+	}
+	.aladin_content_info i{
+		margin-bottom:20px;
+	}
+	.blog_post_nav .navigation{
+		display:block;
+	}
+	.aladin_banner_field{
+		width:25%;
+	}
+	.aladin_shortcode_outer_wrap,
+	.aladin_shortcode_hdg,
+	.aladin_shortcode_hdg_list{
+		text-align:center;
+	}
+	.aside_hdg_1 > h5{
+		display:inline-block;
+	}
+	.aladin_aside_social_icon .aladin_social_icon_list li,
+	.aladin_aside_social_icon .aladin_social_icon_list{
+		float:none;
+	}
+	.aladin_price_plan_wrap{
+		margin-bottom:20px;
+	}
+	.col-md-4.padding {
+		float: left;
+		padding-bottom: 0;
+		padding-top: 40px;
+		width: 100%;
+	}
+	.kf_previous_artical{
+		width:50%;
+		float:left;
+	}
+	.padding-1{
+		padding:15px;
+	}
+	.aladin_aside_social_icon ul.aladin_social_icon_list{
+		float:left;
+		text-align:left;
+	}
+	.aladin_aside_social_icon ul.aladin_social_icon_list li{
+		text-align:center;
+		float:none;
+	}
+	.bottom_bar_header{
+		overflow:hidden;
+	}
+	.kf_banner_des.des_2.bg {
+		background-color: #ffffff;
+		padding: 15px 15px 0;
+	}
+	.kf_banner_des {
+		background-color: #ffffff;
+		padding:0px 15px;
+	}
+	.kf_detail_blog.content_center {
+		padding: 15px;
+	}
+	.content_center .blog_detail_caption{
+		padding:0px;
+	}
+}
+
+/*============	Media 768Px Start ============ */ 
+@media (min-width: 768px) and (max-width: 990px) {
+
+}
+
+/*============ Media 767Px Start ============ */
+@media (max-width: 767px) {
+	.wrapper .container {
+		width: auto;
+	}
+	.flip-clock-wrapper ul li a div.up div.inn {
+		font-size: 20px;
+		top: 7px;
+	}
+	.flip-clock-wrapper ul li a div.down div.inn {
+		bottom: -7px;
+		font-size: 20px;
+	}
+	.clock.flip-clock-wrapper{
+		margin-left:0px;
+	}
+	.kf-header-row > a {
+		display: none;
+	}
+	.breaking-news p{
+		width:36%;
+	}
+	.kf_banner_text figcaption h3{
+		font-size:24px;
+		line-height:normal;
+	}
+	.kf_blog_medium_text > p {
+		display: none;
+	}
+	.flip-clock-wrapper .flip {
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+		display: inline-block;
+		float: none;
+		margin:0px 2px;
+	}
+	.clock.flip-clock-wrapper {
+		margin: auto;
+		text-align: center;
+		width: 100%;
+	}
+	.flip-clock-divider{
+		float:none;
+	}
+	.cp-search-inner{
+		width:450px;
+	}
+	.footer_menu  .navigation ul,
+	.footer_menu .navigation {
+		float:left;
+		text-align: center;
+		width: 100%;
+		display:block;
+		margin:auto;
+	}
+	.footer_menu .pull-right,
+	.footer_menu .pull-left{
+		width: 100%;
+	}
+	.footer_menu .navigation ul li{
+		float:none;
+		display:inline-block;
+	}
+	.kf_list_detali li{
+		width:100%;
+	}
+	.aladin_blog_detail_author figure,
+	.aladin_blog_detail_row figure {
+		float: left;
+		width: 100%;
+		margin-bottom:15px;
+	}
+	.aladin_comment_img{
+		width:100%;
+	}
+	.aladin_blog_author_cap,
+	.aladin_blog_detail_caption {
+		padding-left: 0;
+	}
+	.aladin_blockquote_wrap{
+		padding:40px 30px 32px;
+	}
+	.aladin_comment_list_wrap ul ul {
+		margin: 0;
+		padding: 0 0 0 0px;
+	}
+	.aladin_leave_comment_field{
+		margin-bottom:20px;
+	}
+	.aladin_touch_outer_wrap{
+		padding:38px 0;
+	}
+	.aladin_content_info{
+		margin-bottom:25px;
+	}
+	.aladin_heading_1_wrap h3{
+		font-size:26px;
+	}
+	.aladin_bloger_author .aladin_blog_author_cap {
+		padding: 5px 0 15px 0px;
+	}
+	.blog_post_nav .navigation{
+		display:block;
+	}
+	.blog_post_nav {
+		float: left;
+		width: 50px;
+	}
+	.blog_post_nav.category_list nav ul li a > span:first-child{
+		margin:0 4px 0 0;
+	}
+	.blog_post_nav.category_list nav ul li a{
+		font-size:13px;
+	}
+	.kode_sub_banner{
+		padding:15px;
+	}
+	.kf_banner_add {
+		padding: 15px 0px;
+	}
+	.blog_post_nav.category_list.percent_age nav ul li a > span:first-child{
+		width:60px;
+	}
+	.blog_post_nav.category_list.percent_age nav ul li {
+		padding: 0;
+		width: 47.8%;
+	}
+	.aladin_job_detail_logo_wrap{
+		width:100%;
+		margin-bottom:20px;
+	}
+	.aladin_job_detail_hdg{
+		padding:0px 0px;
+	}
+	.aladin_job_detail_hdg h4{
+		font-size:16px;
+		margin-bottom:15px;
+	}
+	.aladin_job_detail_link > a{
+		margin:0px 0px;
+	}
+	.aladin_job_social_icon_wrap h6{
+		display:none;
+	}
+	.aladin_banner_field {
+		margin-bottom: 10px;
+		padding: 0 5px;
+		width: 50%;
+	}
+	.aladin_job_filter_des{
+		padding:0 0 0 90px;
+	}
+	.aladin_job_filter_wrap{
+		padding:20px 0 10px;
+	}
+	.aladin_job_filter_des h5{
+		margin-right:8px;
+	}
+	.aladin_job_filter_des a {
+		font-size: 13px;
+	}
+	.padding-1{
+		padding:15px;
+	}
+	.aladin_aside_tags ul li a{
+		font-size:16px;
+	}
+	.bottom_bar_header{
+		overflow:hidden;
+	}
+	.aladin_aside_outer_wrap .aladin_aside_social_icon ul.aladin_social_icon_list{
+		float:left;
+		text-align:left;
+	}
+	.aladin_aside_outer_wrap .aladin_aside_social_icon ul.aladin_social_icon_list li{
+		float:none;
+		text-align:center;
+	}
+	.kf_text_detail blockquote{
+		margin:0 0 20px;
+	}
+	.kf_detail_blog h2{
+		font-size:35px;
+	}
+	.navigation.responsive {
+		display: none;
+	}
+	.blog_detail_caption{
+		width:100%;
+	}
+	.kode_blog_caption_content {
+		padding-top: 15px;
+	}
+	.aladin_job_listing_outer_wrap{
+		padding:0px 0px;
+	}
+	.aladin_job_filter_wrap {
+		padding: 20px 15px 10px;
+	}
+}
+
+/*============ Media 480Px Star ============ */
+@media (max-width: 480px) {
+	
+	.flip-clock-divider{
+		display:none;
+	}
+	.kf_navigation_menu{
+		width:100%;
+	}
+	.dl-menuwrapper {
+		left:-15px;
+		padding: 6px 0 4px;
+		position: relative;
+	}
+	.kf_banner_text figcaption h3 {
+		font-size: 16px;
+		margin-bottom: 2px;
+	}
+	.kf_blob_medium_fig figure{
+		width:100%;
+		margin-bottom:15px;
+	}
+	.kf_blog_medium_text > p{
+		display:block;
+	}
+	ul.aladin_social_icon_list li a{
+		margin:0 6px 0 0;
+	}
+	.aside_hdg_1 > h5{
+		font-size:18px;
+	}
+	.footer_menu  .navigation ul,
+	.footer_menu .navigation {
+		float:left;
+		text-align: center;
+		width: 100%;
+		display:block;
+		margin:auto;
+	}
+	.footer_menu .pull-right,
+	.footer_menu .pull-left{
+		width: 100%;
+	}
+	.footer_menu .navigation ul li{
+		float:none;
+		display:inline-block;
+	}
+	.aladin_aside_agent_des > ul{
+		margin:0px;
+	}
+	.aladin_aside_agent_des > ul > li > a {
+		color: #666666;
+		font-size: 14px;
+	}
+	.breaking-news p {
+		width: 19%;
+	}
+	.cp-search-inner {
+		width: 300px;
+	}
+	.aladin_blog_meta_wrap ul{
+		display:none;
+	}
+	.aladin_blog_2_des {
+		padding: 0 10px 0 20px;
+	}
+	.aladin_pagination_wrap ul li{
+		margin-right:0px;
+	}
+	.kf_text_detail blockquote{
+		margin:0 0 20px;
+	}
+	.kode_tages li a{
+		font-size:11px;
+	}
+	.kf_previous_fig figure {
+		margin-bottom: 15px;
+		width: 100%;
+	}
+	.aladin_blog_2_des {
+		padding: 0;
+	}
+	.aladin_blockquote_wrap {
+		padding: 30px 20px 22px;
+	}
+	ul.aladin_blog_social_icon,
+	ul.aladin_blog_tag {
+		float: left;
+		text-align: center;
+		width: 100%;
+	}
+	ul.aladin_blog_tag {
+		margin-bottom:8px;
+	}
+	.aladin_comment_des{
+		padding:20px 15px;
+	}
+	.content_banner h2{
+		font-size:24px;
+	}
+	.kf_logo {
+		padding-top: 0;
+		text-align: center;
+		width: 100%;
+	}
+	.aladin_get_touch_des h3{
+		font-size:20px;
+	}
+	.kf_detail_blog h2{
+		font-size:25px;
+		padding:17px 20px 2px;
+	}
+	.blog_detail_caption{
+		width:100%;
+	}
+	.blog_post_nav .navigation{
+		display:none;
+	}
+	.kf_banner_add {
+		padding: 15px 0px;
+	}
+	.kf_detail_blog h2 {
+		font-size: 20px;
+		padding: 15px 10px 0;
+	}
+	.kode_sub_banner {
+		text-align: center;
+	}
+	.blog_detail_caption  .social-icons{
+		display:block;
+	}
+	.social-icons li {
+		margin: 0 1px 6px;
+		width: 24%;
+	}
+	.blog_post_nav.category_list.percent_age{
+		float:left;
+		width:100%;
+	}
+	.blog_post_nav.category_list.percent_age .navigation{
+		display:block;
+	}
+	.blog_post_nav.category_list.percent_age nav ul li{
+		width:100%;
+	}
+	.blog_post_nav.category_list nav ul li a {
+		font-size: 15px;
+	}
+	.aladin_job_social_icon_wrap,
+	.aladin_job_detail_hdg {
+		float: left;
+		text-align: center;
+		width: 100%;
+	}
+	.aladin_job_detail_hdg .aladin_link_2{
+		margin-bottom:20px;
+	}
+	.aladin_job_staus_element > li:last-child {
+		display: none;
+	}
+	.aladin_job_detail_link > a {
+		font-size: 12px;
+		margin: 0px 0px 15px;
+	}
+	.aladin_job_detail_hdg ul.aladin_job_staus_element {
+		margin: 0 0 20px;
+	}
+	.aladin_job_social_icon_wrap h6 {
+		display:inline-block;
+		float:none;
+	}
+	.aladin_aside_similar_job_des,
+	.aladin_aside_similar_job ul li{
+		padding:0px 0px;
+	}
+	.aladin_aside_similar_job ul li{
+		margin-bottom:20px;
+	}
+	.aladin_aside_similar_job_img img,
+	.aladin_aside_similar_job_img{
+		width:100%;
+		height:100%;
+	}
+	.aladin_aside_similar_job_img{
+		margin-bottom:15px;
+	}
+	.aladin_job_social_icon_wrap ul.aladin_job_social_icon {
+		float: none;
+		margin: auto;
+		display:inline-block;
+		width:auto;
+		text-align: center;
+	}
+	.aladin_job_social_icon_wrap ul.aladin_job_social_icon li{
+		float:none;
+		display:inline-block;
+	}
+	.aladin_banner_field{
+		width:100%;
+	}
+	.aladin_job_custom_search_wrap{
+		margin:0 0 20px;
+	}
+	.aladin_job_filter_icon img,
+	.aladin_job_filter_icon{
+		width:100%;
+		min-height:100%;
+	}
+	.aladin_job_filter_des {
+		padding: 20px 0px;
+		float:left;
+		width:100%;
+	}
+	.aladin_job_listing_outer_wrap{
+		padding:0px 0px;
+	}
+	.aladin_job_filter_wrap{
+		padding:0px 10px;
+	}
+	.aladin_link_3 {
+		display: none;
+	}
+	.aladin_shortcode_hdg_list h2{
+		font-size:30px;
+	}
+	.aladin_shortcode_outer_wrap {
+		padding-bottom: 0;
+	}
+	.aladin_testimonail_wrap figure{
+		display:none;
+	}
+	.aladin_shortcode_hdg h3{
+		font-size:26px;
+	}
+	.aladin_social_icon_3{
+		margin-bottom:20px;
+	}
+	.aladin_shortcode_button .aladin_md {
+		margin-bottom: 10px;
+		padding: 8px 20px;
+	}
+	.aladin_accordian_des {
+		margin-bottom: 20px;
+	}
+	.aladin_shortcode_hdg h3{
+		margin-bottom:0px;
+	}
+	.aladin_blog_meta_wrap{
+		padding:0px 10px;
+	}
+	.aladin_blog_detail_outer_wrap{
+		padding:15px 10px 0px;
+	}
+	.kf_detail_blog .kf_banner_add{
+		margin-bottom:0px;
+	}
+	.aladin_job_custom_search_wrap{
+		padding:15px;
+	}
+	.kf_blog_medium_text {
+		padding-left: 1px;
+	}
+	.kf_previous_fig figure{
+		padding:0px 5px;
+	}
+}

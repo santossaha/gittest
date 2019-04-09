@@ -1,0 +1,218 @@
+/*
+======================================================
+    CHURCH PROJECT VERSION 1.1
+=======================================================
+    Created BY KODEFOREST Date 5/12/2017 
+======================================================
+
+    ! COLORS .CSS
+
+======================================================
+
+*/
+
+
+
+/*
+======================================================
+				font color 
+=======================================================
+
+*/
+.footer_menu .navigation ul li a:hover,
+ul.aladin_job_aside_map_element li a:hover,
+.aladin_aside_similar_job_des > h6 > a:hover,
+.aladin_job_filter_des h5 a:hover,
+.aladin_aside_vacancy_type ul li a:hover,
+header .navigation ul li a:hover,
+.search_icon:hover,
+.kf_meta ul li a:hover,
+.kf_list_detali  li h5 a:hover,
+.blog_post_nav.category_list nav ul li a > span:hover,
+.blog_post_nav.category_list nav ul li a:hover,
+.kf_blog_medium_text h3 a:hover,
+ul.aladin_plan_offer_list li a:hover,
+.aladin_link_4:hover,
+.aladin_comment_des h6 span,
+.aladin_accordian_hdg.accordion-open h6,
+.aladin_archieve_wrap ul li a:hover,
+.aladin_aside_testimonial span a,
+.aladin_aside_agent_des h6 > a:hover,
+.aladin_aside_category ul li a:hover,
+.aladin_load_comment_wrap a:hover,
+.aladin_comment_des a:hover,
+ul.aladin_blog_social_icon li a:hover,
+.aladin_content_info a:hover,
+.aladin_content_info:hover h5,
+.aladin_content_info:hover i, 
+.aladin_blog_2_des h3 > a:hover{
+	color:#e72f13;
+}
+
+
+
+/*
+======================================================
+				background color 
+=======================================================
+
+*/
+.overlay-contentscale.open,
+.aladin_link_2,
+.aladin_link_1:hover,
+.aladin_link_5:hover,
+.aladin_link_6:hover,
+.aladin_link_7:hover,
+.hdg_thumb,
+span.aladin_job_title ,
+.aladin_aside_vacancy_type ul li:hover:before,
+.aladin_banner_field input[type="submit"], .aladin_banner_field button,
+ul.aladin_job_social_icon li a:hover,
+.aladin_job_detail_link > a,
+.hotel-login-form button,
+#user-login .nav-tabs > li.active a,
+.bottom_bar_header,
+.social-icons li a:hover,
+.bar,
+.aladin_price_plan_bg::before,
+.aladin_blog_listing_wrap .bx-wrapper .bx-controls-direction a:hover,
+.aladin_aside_testi_wrap.aside_hdg_1 .bx-pager.bx-default-pager .bx-pager-link.active,
+.aladin_aside_tags ul li a:hover,
+.aladin_aside_category ul li:hover:before,
+.aside_hdg_1 > h5::before,
+.aladin_blockquote_wrap,
+.aladin_touch_outer_wrap,
+.aladin_link_1.aladin_lg:hover,
+.aladin_pagination_wrap ul li:hover a,
+.aladin_blog_2_wrap:hover .aladin_overlay,
+.aladin_social_icon_list li a:hover,
+.aladin_overlay:hover,
+.aladin_link_7:hover,
+.aladin_blog_meta_wrap ul{
+	background-color:#4713e7;
+}
+
+
+
+
+
+/*
+======================================================
+				border color 
+=======================================================
+*/
+.aladin_contact_field input[type="email"]:focus,
+.aladin_aside_search_field input[type="search"]:focus,
+.aladin_leave_comment_field textarea:focus,
+.aladin_leave_comment_field input[type="email"]:focus,
+.aladin_leave_comment_field input[type="text"]:focus,
+.aladin_contact_field input[type="text"]:focus,
+.aladin_job_custom_search_wrap .aladin_banner_field input[type="text"]:focus,
+.aladin_banner_field input[type="text"]:focus,
+.aladin_job_aside_search_field input[type="text"]:focus,
+.aladin_contact_field textarea:focus,
+.aladin_contact_field > input:focus,
+.kode_tages li a:hover,
+.kf_text_detail p a:hover,
+.kf_meta ul li a:hover,
+.aladin_link_4:hover,
+.aladin_content_info:hover i, 
+.aladin_contact_field input:focus,
+.aladin_blog_2_fig_des .aladin_social_icon_list li a:hover,
+.aladin_link_7:hover{
+	border-color:#e72f13;
+}
+
+
+/*
+======================================================
+			transition color 
+=======================================================
+*/
+.aladin_aside_recent_post ul li,
+.aladin_aside_search_field input[type="search"],
+.aladin_leave_comment_field textarea,
+.aladin_leave_comment_field input[type="email"],
+.aladin_leave_comment_field input[type="text"],
+.footer_menu .navigation ul li a,
+ul.aladin_job_aside_map_element li a,
+.aladin_aside_similar_job_des > h6 > a,
+.aladin_job_filter_des h5 a,
+.aladin_job_filter_wrap,
+.aladin_banner_field input[type="submit"], .aladin_banner_field button,
+.aladin_banner_field input[type="text"],
+.aladin_job_aside_search_field input[type="text"],
+.aladin_aside_vacancy_type ul li::before,
+.aladin_aside_vacancy_type ul li a,
+ul.aladin_job_social_icon li a,
+.aladin_job_detail_link > a,
+.aladin_aside_fea_properties ul li a img,
+.aladin_aside_recent_post > ul > li figure img,
+.hotel-login-form button,
+.search_icon,
+.overlay-dark:before,
+.kf_service_fig figure,
+.kf_banner_text figure,
+.social-icons li a,
+.kf_meta ul li a,
+.kf_banner_text.margin_bottom > figure,
+.blog_post_nav.category_list nav ul li a > span,
+.blog_post_nav.category_list nav ul li a,
+.blog_post_nav nav ul li a,
+.kf_blob_medium_fig figure,
+.kf_blog_medium_text h3 a,
+.navigation ul ul,
+ul.aladin_plan_offer_list li a,
+.aladin_link_4,
+.aladin_blog_listing_wrap .bx-wrapper .bx-controls-direction a,
+.aladin_archieve_wrap ul li a,
+.aladin_aside_tags ul li a,
+.aladin_aside_agent_des h6 > a,
+.aladin_aside_category ul li:before,
+.aladin_aside_category ul li span,
+.aladin_aside_category ul li a,
+.aladin_load_comment_wrap a,
+.aladin_comment_des a,
+.aladin_blog_social_icon li a,
+.aladin_content_info a,
+.aladin_content_info h5,
+.aladin_content_info i, 
+.aladin_link_1,
+.aladin_link_2,
+.aladin_link_3,
+.aladin_link_5,
+.aladin_link_6,
+.aladin_link_7,
+.aladin_contact_field textarea,
+.aladin_contact_field > input,
+.aladin_link_1.aladin_lg,
+.aladin_contact_field input,
+.aladin_pagination_wrap ul li a,
+.aladin_overlay,
+.aladin_social_icon_list li a,
+.aladin_blog_2_fig_des,
+.aladin_blog_2_wrap,
+.aladin_link_7 i,
+.aladin_link_7,
+.aladin_blog_2_des h3 > a,
+.aladin_blog_meta_wrap ul li,
+.navigation ul li a,
+.kf_list_detali  li p a,
+.kf_list_detali  li h5 a,
+.navigation ul li a
+
+
+
+{
+
+
+	-webkit-transition:all 0.3s ease-in-out;
+		-moz-transition:all 0.3s ease-in-out;
+			-ms-transition:all 0.3s ease-in-out;
+				-o-transition:all 0.3s ease-in-out;
+					transition:all 0.3s ease-in-out;
+
+}
+
+
+
